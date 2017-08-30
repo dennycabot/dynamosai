@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5E983F248770004A6C89C78 /* Pods_DynamosAI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C57FEC23BB5E31A7EFE6F9B5 /* Pods_DynamosAI.framework */; };
 		EF27F0781F5694E9001E6AA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27F0771F5694E9001E6AA8 /* AppDelegate.swift */; };
-		EF27F07A1F5694E9001E6AA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27F0791F5694E9001E6AA8 /* ViewController.swift */; };
 		EF27F07D1F5694E9001E6AA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF27F07B1F5694E9001E6AA8 /* Main.storyboard */; };
 		EF27F07F1F5694E9001E6AA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF27F07E1F5694E9001E6AA8 /* Assets.xcassets */; };
 		EF27F0821F5694E9001E6AA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF27F0801F5694E9001E6AA8 /* LaunchScreen.storyboard */; };
+		EF27F0901F5696F4001E6AA8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27F08F1F5696F4001E6AA8 /* LoginViewController.swift */; };
+		EF27F0921F56970B001E6AA8 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27F0911F56970B001E6AA8 /* SignupViewController.swift */; };
+		EF27F0941F56972D001E6AA8 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27F0931F56972D001E6AA8 /* WelcomeViewController.swift */; };
+		EF27F0961F569752001E6AA8 /* FloorMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27F0951F569752001E6AA8 /* FloorMapViewController.swift */; };
+		EF27F0981F56980A001E6AA8 /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27F0971F56980A001E6AA8 /* APIRouter.swift */; };
+		EF27F09A1F56982C001E6AA8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27F0991F56982C001E6AA8 /* Constants.swift */; };
+		EF27F09C1F569D34001E6AA8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27F09B1F569D34001E6AA8 /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D625D9A6AE4C231472A9AE8 /* Pods-DynamosAI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamosAI.release.xcconfig"; path = "Pods/Target Support Files/Pods-DynamosAI/Pods-DynamosAI.release.xcconfig"; sourceTree = "<group>"; };
+		45254392A04E7C76ABCEECEA /* Pods-DynamosAI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamosAI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DynamosAI/Pods-DynamosAI.debug.xcconfig"; sourceTree = "<group>"; };
+		C57FEC23BB5E31A7EFE6F9B5 /* Pods_DynamosAI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynamosAI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF27F0741F5694E9001E6AA8 /* DynamosAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamosAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF27F0771F5694E9001E6AA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EF27F0791F5694E9001E6AA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EF27F07C1F5694E9001E6AA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF27F07E1F5694E9001E6AA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF27F0811F5694E9001E6AA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF27F0831F5694E9001E6AA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF27F08F1F5696F4001E6AA8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EF27F0911F56970B001E6AA8 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		EF27F0931F56972D001E6AA8 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		EF27F0951F569752001E6AA8 /* FloorMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloorMapViewController.swift; sourceTree = "<group>"; };
+		EF27F0971F56980A001E6AA8 /* APIRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		EF27F0991F56982C001E6AA8 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EF27F09B1F569D34001E6AA8 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5E983F248770004A6C89C78 /* Pods_DynamosAI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5482E4CBB6743FE541454553 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C57FEC23BB5E31A7EFE6F9B5 /* Pods_DynamosAI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC58F593631A901D677BA409 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45254392A04E7C76ABCEECEA /* Pods-DynamosAI.debug.xcconfig */,
+				0D625D9A6AE4C231472A9AE8 /* Pods-DynamosAI.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EF27F06B1F5694E9001E6AA8 = {
 			isa = PBXGroup;
 			children = (
 				EF27F0761F5694E9001E6AA8 /* DynamosAI */,
 				EF27F0751F5694E9001E6AA8 /* Products */,
+				AC58F593631A901D677BA409 /* Pods */,
+				5482E4CBB6743FE541454553 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +90,68 @@
 		EF27F0761F5694E9001E6AA8 /* DynamosAI */ = {
 			isa = PBXGroup;
 			children = (
-				EF27F0771F5694E9001E6AA8 /* AppDelegate.swift */,
-				EF27F0791F5694E9001E6AA8 /* ViewController.swift */,
+				EF27F0891F569647001E6AA8 /* Application */,
+				EF27F08A1F56964D001E6AA8 /* Modules */,
+				EF27F08C1F569677001E6AA8 /* Web Service */,
+				EF27F08B1F56965C001E6AA8 /* Utilities */,
 				EF27F07B1F5694E9001E6AA8 /* Main.storyboard */,
 				EF27F07E1F5694E9001E6AA8 /* Assets.xcassets */,
 				EF27F0801F5694E9001E6AA8 /* LaunchScreen.storyboard */,
 				EF27F0831F5694E9001E6AA8 /* Info.plist */,
 			);
 			path = DynamosAI;
+			sourceTree = "<group>";
+		};
+		EF27F0891F569647001E6AA8 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				EF27F0771F5694E9001E6AA8 /* AppDelegate.swift */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		EF27F08A1F56964D001E6AA8 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				EF27F08D1F5696C2001E6AA8 /* Login */,
+				EF27F08E1F5696CE001E6AA8 /* Event Map */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		EF27F08B1F56965C001E6AA8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EF27F0991F56982C001E6AA8 /* Constants.swift */,
+				EF27F09B1F569D34001E6AA8 /* Utilities.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		EF27F08C1F569677001E6AA8 /* Web Service */ = {
+			isa = PBXGroup;
+			children = (
+				EF27F0971F56980A001E6AA8 /* APIRouter.swift */,
+			);
+			name = "Web Service";
+			sourceTree = "<group>";
+		};
+		EF27F08D1F5696C2001E6AA8 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EF27F08F1F5696F4001E6AA8 /* LoginViewController.swift */,
+				EF27F0911F56970B001E6AA8 /* SignupViewController.swift */,
+				EF27F0931F56972D001E6AA8 /* WelcomeViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		EF27F08E1F5696CE001E6AA8 /* Event Map */ = {
+			isa = PBXGroup;
+			children = (
+				EF27F0951F569752001E6AA8 /* FloorMapViewController.swift */,
+			);
+			name = "Event Map";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +161,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF27F0861F5694E9001E6AA8 /* Build configuration list for PBXNativeTarget "DynamosAI" */;
 			buildPhases = (
+				C2A3231E2408CFAB893EAE91 /* [CP] Check Pods Manifest.lock */,
 				EF27F0701F5694E9001E6AA8 /* Sources */,
 				EF27F0711F5694E9001E6AA8 /* Frameworks */,
 				EF27F0721F5694E9001E6AA8 /* Resources */,
+				6E1A7EDB5A0AE218E0DF635E /* [CP] Embed Pods Frameworks */,
+				74AD0BC6C294BB94CFD7C9B7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +225,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6E1A7EDB5A0AE218E0DF635E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DynamosAI/Pods-DynamosAI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74AD0BC6C294BB94CFD7C9B7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DynamosAI/Pods-DynamosAI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2A3231E2408CFAB893EAE91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EF27F0701F5694E9001E6AA8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF27F07A1F5694E9001E6AA8 /* ViewController.swift in Sources */,
+				EF27F0921F56970B001E6AA8 /* SignupViewController.swift in Sources */,
+				EF27F0981F56980A001E6AA8 /* APIRouter.swift in Sources */,
+				EF27F0941F56972D001E6AA8 /* WelcomeViewController.swift in Sources */,
+				EF27F0901F5696F4001E6AA8 /* LoginViewController.swift in Sources */,
+				EF27F09A1F56982C001E6AA8 /* Constants.swift in Sources */,
 				EF27F0781F5694E9001E6AA8 /* AppDelegate.swift in Sources */,
+				EF27F09C1F569D34001E6AA8 /* Utilities.swift in Sources */,
+				EF27F0961F569752001E6AA8 /* FloorMapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,12 +406,14 @@
 		};
 		EF27F0871F5694E9001E6AA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45254392A04E7C76ABCEECEA /* Pods-DynamosAI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DBD2DBFKN6;
 				INFOPLIST_FILE = DynamosAI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = denmathew.DynamosAI;
+				PRODUCT_BUNDLE_IDENTIFIER = cabot.DynamosAI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -272,12 +421,14 @@
 		};
 		EF27F0881F5694E9001E6AA8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D625D9A6AE4C231472A9AE8 /* Pods-DynamosAI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DBD2DBFKN6;
 				INFOPLIST_FILE = DynamosAI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = denmathew.DynamosAI;
+				PRODUCT_BUNDLE_IDENTIFIER = cabot.DynamosAI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -302,6 +453,7 @@
 				EF27F0881F5694E9001E6AA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
