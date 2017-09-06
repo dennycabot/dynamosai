@@ -17,7 +17,6 @@ class LoginViewController: UIViewController {
         // Do any additional setup after loading the view.
         let loginManager = LoginManager()
         
-        /*
         let requestModel = Login(email: "dynamos@gmail.com", password: "cabot1235")
         
         loginManager.login(with: requestModel) { (error, loginResponse) in
@@ -32,6 +31,8 @@ class LoginViewController: UIViewController {
                 print("Error Logging in! :(")
             }
         }
+        
+        /*
  
         
         let requestModel = Signup(email: "dynamos@cabotsolutions.com", name: "Dynamos", password: "cabot1234")
@@ -48,10 +49,9 @@ class LoginViewController: UIViewController {
                 print("Error Signing Up! :(")
             }
         }
-        
-        */
-        
+         
         let eventManager = EventManager()
+        
         eventManager.eventList { (error, eventList) in
             
             if eventList != nil {
@@ -63,23 +63,16 @@ class LoginViewController: UIViewController {
                 print("Fetching Event List Failed! :(")
             }
         }
-        
+ 
+        let eventMap = EventMap()
+        eventMap.id = "event_001"
+        eventManager.eventMap(eventMap) { (error, response) in
+            print("Map Url: \(String(describing: response?.layoutUrl))")
+        }
+        */
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

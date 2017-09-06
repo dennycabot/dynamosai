@@ -10,5 +10,5 @@ import UIKit
 
 class EventMap: NSObject {
     
-    let id = ""
+    var id = ""
 }
