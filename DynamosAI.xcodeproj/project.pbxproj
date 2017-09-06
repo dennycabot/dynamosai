@@ -19,6 +19,20 @@
 		EF27F0981F56980A001E6AA8 /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27F0971F56980A001E6AA8 /* APIRouter.swift */; };
 		EF27F09A1F56982C001E6AA8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27F0991F56982C001E6AA8 /* Constants.swift */; };
 		EF27F09C1F569D34001E6AA8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27F09B1F569D34001E6AA8 /* Utilities.swift */; };
+		EF994DC51F57E7890013F207 /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF994DC41F57E7890013F207 /* LoginManager.swift */; };
+		EF994DC81F57EB8D0013F207 /* ApplicationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF994DC71F57EB8D0013F207 /* ApplicationManager.swift */; };
+		EF994DCA1F57EBA60013F207 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF994DC91F57EBA60013F207 /* BaseViewController.swift */; };
+		EF994DCC1F57EBDA0013F207 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF994DCB1F57EBDA0013F207 /* Login.swift */; };
+		EF994DCE1F57ECDB0013F207 /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF994DCD1F57ECDB0013F207 /* Signup.swift */; };
+		EF994DD01F58108F0013F207 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF994DCF1F58108F0013F207 /* APIManager.swift */; };
+		EFB7449A1F5E7DED0063CF7A /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB744991F5E7DED0063CF7A /* LoginResponse.swift */; };
+		EFB7449C1F5EAA490063CF7A /* SignupResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB7449B1F5EAA490063CF7A /* SignupResponse.swift */; };
+		EFB7449E1F5EB0130063CF7A /* EventManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB7449D1F5EB0130063CF7A /* EventManager.swift */; };
+		EFB744A21F5EB0310063CF7A /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB744A11F5EB0310063CF7A /* Event.swift */; };
+		EFB744A41F5EB0540063CF7A /* EventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB744A31F5EB0540063CF7A /* EventsTableViewController.swift */; };
+		EFB744AA1F5EB6000063CF7A /* EventListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB744A91F5EB6000063CF7A /* EventListResponse.swift */; };
+		EFB744AC1F5EB9F30063CF7A /* EventMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB744AB1F5EB9F30063CF7A /* EventMap.swift */; };
+		EFB744AE1F5EBBD40063CF7A /* EventMapResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB744AD1F5EBBD40063CF7A /* EventMapResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +52,20 @@
 		EF27F0971F56980A001E6AA8 /* APIRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
 		EF27F0991F56982C001E6AA8 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		EF27F09B1F569D34001E6AA8 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		EF994DC41F57E7890013F207 /* LoginManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
+		EF994DC71F57EB8D0013F207 /* ApplicationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationManager.swift; sourceTree = "<group>"; };
+		EF994DC91F57EBA60013F207 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		EF994DCB1F57EBDA0013F207 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		EF994DCD1F57ECDB0013F207 /* Signup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
+		EF994DCF1F58108F0013F207 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		EFB744991F5E7DED0063CF7A /* LoginResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		EFB7449B1F5EAA490063CF7A /* SignupResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupResponse.swift; sourceTree = "<group>"; };
+		EFB7449D1F5EB0130063CF7A /* EventManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventManager.swift; sourceTree = "<group>"; };
+		EFB744A11F5EB0310063CF7A /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		EFB744A31F5EB0540063CF7A /* EventsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsTableViewController.swift; sourceTree = "<group>"; };
+		EFB744A91F5EB6000063CF7A /* EventListResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventListResponse.swift; sourceTree = "<group>"; };
+		EFB744AB1F5EB9F30063CF7A /* EventMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMap.swift; sourceTree = "<group>"; };
+		EFB744AD1F5EBBD40063CF7A /* EventMapResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMapResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,8 +120,8 @@
 			children = (
 				EF27F0891F569647001E6AA8 /* Application */,
 				EF27F08A1F56964D001E6AA8 /* Modules */,
-				EF27F08C1F569677001E6AA8 /* Web Service */,
 				EF27F08B1F56965C001E6AA8 /* Utilities */,
+				EF27F08C1F569677001E6AA8 /* Web Service */,
 				EF27F07B1F5694E9001E6AA8 /* Main.storyboard */,
 				EF27F07E1F5694E9001E6AA8 /* Assets.xcassets */,
 				EF27F0801F5694E9001E6AA8 /* LaunchScreen.storyboard */,
@@ -106,6 +134,8 @@
 			isa = PBXGroup;
 			children = (
 				EF27F0771F5694E9001E6AA8 /* AppDelegate.swift */,
+				EF994DC71F57EB8D0013F207 /* ApplicationManager.swift */,
+				EF994DC91F57EBA60013F207 /* BaseViewController.swift */,
 			);
 			name = Application;
 			sourceTree = "<group>";
@@ -132,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				EF27F0971F56980A001E6AA8 /* APIRouter.swift */,
+				EF994DCF1F58108F0013F207 /* APIManager.swift */,
 			);
 			name = "Web Service";
 			sourceTree = "<group>";
@@ -139,9 +170,8 @@
 		EF27F08D1F5696C2001E6AA8 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				EF27F08F1F5696F4001E6AA8 /* LoginViewController.swift */,
-				EF27F0911F56970B001E6AA8 /* SignupViewController.swift */,
-				EF27F0931F56972D001E6AA8 /* WelcomeViewController.swift */,
+				EF994DC31F57E76B0013F207 /* Model */,
+				EF994DC21F57E75C0013F207 /* Controllers */,
 			);
 			name = Login;
 			sourceTree = "<group>";
@@ -149,9 +179,53 @@
 		EF27F08E1F5696CE001E6AA8 /* Event Map */ = {
 			isa = PBXGroup;
 			children = (
-				EF27F0951F569752001E6AA8 /* FloorMapViewController.swift */,
+				EFB744A61F5EB0660063CF7A /* Model */,
+				EFB744A51F5EB0590063CF7A /* Controllers */,
 			);
 			name = "Event Map";
+			sourceTree = "<group>";
+		};
+		EF994DC21F57E75C0013F207 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF27F08F1F5696F4001E6AA8 /* LoginViewController.swift */,
+				EF27F0911F56970B001E6AA8 /* SignupViewController.swift */,
+				EF27F0931F56972D001E6AA8 /* WelcomeViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		EF994DC31F57E76B0013F207 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF994DC41F57E7890013F207 /* LoginManager.swift */,
+				EF994DCB1F57EBDA0013F207 /* Login.swift */,
+				EFB744991F5E7DED0063CF7A /* LoginResponse.swift */,
+				EFB7449B1F5EAA490063CF7A /* SignupResponse.swift */,
+				EF994DCD1F57ECDB0013F207 /* Signup.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EFB744A51F5EB0590063CF7A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF27F0951F569752001E6AA8 /* FloorMapViewController.swift */,
+				EFB744A31F5EB0540063CF7A /* EventsTableViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		EFB744A61F5EB0660063CF7A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EFB744A11F5EB0310063CF7A /* Event.swift */,
+				EFB744AB1F5EB9F30063CF7A /* EventMap.swift */,
+				EFB744AD1F5EBBD40063CF7A /* EventMapResponse.swift */,
+				EFB744A91F5EB6000063CF7A /* EventListResponse.swift */,
+				EFB7449D1F5EB0130063CF7A /* EventManager.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,12 +354,26 @@
 			files = (
 				EF27F0921F56970B001E6AA8 /* SignupViewController.swift in Sources */,
 				EF27F0981F56980A001E6AA8 /* APIRouter.swift in Sources */,
+				EF994DCA1F57EBA60013F207 /* BaseViewController.swift in Sources */,
+				EFB744AE1F5EBBD40063CF7A /* EventMapResponse.swift in Sources */,
+				EF994DCC1F57EBDA0013F207 /* Login.swift in Sources */,
+				EFB7449C1F5EAA490063CF7A /* SignupResponse.swift in Sources */,
+				EFB744AA1F5EB6000063CF7A /* EventListResponse.swift in Sources */,
+				EF994DC81F57EB8D0013F207 /* ApplicationManager.swift in Sources */,
+				EFB744A21F5EB0310063CF7A /* Event.swift in Sources */,
+				EFB7449E1F5EB0130063CF7A /* EventManager.swift in Sources */,
+				EFB744AC1F5EB9F30063CF7A /* EventMap.swift in Sources */,
 				EF27F0941F56972D001E6AA8 /* WelcomeViewController.swift in Sources */,
+				EF994DD01F58108F0013F207 /* APIManager.swift in Sources */,
 				EF27F0901F5696F4001E6AA8 /* LoginViewController.swift in Sources */,
+				EF994DCE1F57ECDB0013F207 /* Signup.swift in Sources */,
 				EF27F09A1F56982C001E6AA8 /* Constants.swift in Sources */,
+				EF994DC51F57E7890013F207 /* LoginManager.swift in Sources */,
 				EF27F0781F5694E9001E6AA8 /* AppDelegate.swift in Sources */,
 				EF27F09C1F569D34001E6AA8 /* Utilities.swift in Sources */,
 				EF27F0961F569752001E6AA8 /* FloorMapViewController.swift in Sources */,
+				EFB744A41F5EB0540063CF7A /* EventsTableViewController.swift in Sources */,
+				EFB7449A1F5E7DED0063CF7A /* LoginResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

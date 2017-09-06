@@ -20,10 +20,10 @@ public enum APIRouter: URLRequestConvertible {
     //VARS
     var method: HTTPMethod {
         switch self {
-        case .getEvents:
+        case .events:
             return .get
             
-        case .login, .signup, .getFloorMap:
+        case .login, .signup, .floorMap:
             return .post
         }
     }
@@ -68,11 +68,10 @@ public enum APIRouter: URLRequestConvertible {
         
         var request = URLRequest(url: url.appendingPathComponent(path))
         request.httpMethod = method.rawValue
-        request.setValue(AUTH_TOKEN, forHTTPHeaderField: "authToken")
-        request.setValue(USER_ID, forHTTPHeaderField: "userId")
-        request.setValue(TYPE_JSON, forHTTPHeaderField: "content-type")
+        request.setValue(AUTH_TOKEN, forHTTPHeaderField: AUTH_TOKEN)
+        request.setValue(TYPE_JSON, forHTTPHeaderField: CONTENT_TYPE)
         request.timeoutInterval = TimeInterval(10 * 1000)
         
-        return try JSONEncoding.default.encode(request, with: parameters)
+        return try URLEncoding.default.encode(request, with: parameters)
     }
 }
