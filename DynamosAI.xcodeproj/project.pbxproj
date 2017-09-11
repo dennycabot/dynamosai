@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2536F5091F66756400F8CFC3 /* BeaconsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536F5081F66756400F8CFC3 /* BeaconsViewController.swift */; };
 		C5E983F248770004A6C89C78 /* Pods_DynamosAI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C57FEC23BB5E31A7EFE6F9B5 /* Pods_DynamosAI.framework */; };
 		EF27F0781F5694E9001E6AA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27F0771F5694E9001E6AA8 /* AppDelegate.swift */; };
 		EF27F07D1F5694E9001E6AA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF27F07B1F5694E9001E6AA8 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0D625D9A6AE4C231472A9AE8 /* Pods-DynamosAI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamosAI.release.xcconfig"; path = "Pods/Target Support Files/Pods-DynamosAI/Pods-DynamosAI.release.xcconfig"; sourceTree = "<group>"; };
+		2536F5081F66756400F8CFC3 /* BeaconsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconsViewController.swift; sourceTree = "<group>"; };
 		45254392A04E7C76ABCEECEA /* Pods-DynamosAI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamosAI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DynamosAI/Pods-DynamosAI.debug.xcconfig"; sourceTree = "<group>"; };
 		C57FEC23BB5E31A7EFE6F9B5 /* Pods_DynamosAI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynamosAI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF27F0741F5694E9001E6AA8 /* DynamosAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamosAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +82,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2536F5071F66750B00F8CFC3 /* Beacon */ = {
+			isa = PBXGroup;
+			children = (
+				2536F50A1F66764200F8CFC3 /* Controllers */,
+			);
+			name = Beacon;
+			sourceTree = "<group>";
+		};
+		2536F50A1F66764200F8CFC3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2536F5081F66756400F8CFC3 /* BeaconsViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		5482E4CBB6743FE541454553 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +161,7 @@
 		EF27F08A1F56964D001E6AA8 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				2536F5071F66750B00F8CFC3 /* Beacon */,
 				EF27F08D1F5696C2001E6AA8 /* Login */,
 				EF27F08E1F5696CE001E6AA8 /* Event Map */,
 			);
@@ -361,6 +380,7 @@
 				EFB744AA1F5EB6000063CF7A /* EventListResponse.swift in Sources */,
 				EF994DC81F57EB8D0013F207 /* ApplicationManager.swift in Sources */,
 				EFB744A21F5EB0310063CF7A /* Event.swift in Sources */,
+				2536F5091F66756400F8CFC3 /* BeaconsViewController.swift in Sources */,
 				EFB7449E1F5EB0130063CF7A /* EventManager.swift in Sources */,
 				EFB744AC1F5EB9F30063CF7A /* EventMap.swift in Sources */,
 				EF27F0941F56972D001E6AA8 /* WelcomeViewController.swift in Sources */,
